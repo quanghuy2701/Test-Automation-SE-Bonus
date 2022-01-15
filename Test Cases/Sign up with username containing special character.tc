@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sign up with username containing special character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff4e85fc-d064-486b-bb9e-8405a0d37b0f</testCaseGuid>
+</TestCaseEntity>
