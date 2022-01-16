@@ -15,30 +15,30 @@
       <guid>19f4d784-e776-4b2c-9534-5ef08667ee7c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sign up with an existed username</testCaseId>
+      <testCaseId>Test Cases/Sign up/Sign up with an existed username</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ac271f2f-8dfa-4cd3-84e5-2dabdb9fe241</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sign up with correct information</testCaseId>
+      <testCaseId>Test Cases/Sign up/Sign up with correct information</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>17e77b40-d116-4024-9afb-a3ffd6dc472c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sign up with incorrect confirm password</testCaseId>
+      <testCaseId>Test Cases/Sign up/Sign up with incorrect confirm password</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>877935df-f2ba-4730-81c4-d3b265c8e9e7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sign up with username containing special character</testCaseId>
+      <testCaseId>Test Cases/Sign up/Sign up with username containing special character</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>430e418a-62ee-42e3-ad15-36bb2d744e11</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sign up without input email</testCaseId>
+      <testCaseId>Test Cases/Sign up/Sign up without input email</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
