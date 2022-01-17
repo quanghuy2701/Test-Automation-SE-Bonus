@@ -17,18 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://localhost:8080/')
-
-WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Forgot password_mx_AccessibleButton mx__5d3fbf'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'), 
-    'quanghuy2701')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Password_password'), 'hk4lGgMz64Dt/7aG6vaJCw==')
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Password_password'), Keys.chord(Keys.ENTER))
-

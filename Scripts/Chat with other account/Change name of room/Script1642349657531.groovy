@@ -29,6 +29,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_User
 
 WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
 
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify this deviceVerify your identity _6fde71'))
+
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Reset all'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Proceed with reset'))
@@ -37,17 +39,19 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Cancel'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Cancel'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Test chat room'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_PublicOpen space for anyone, best for c_08629a'))
+WebUI.click(findTestObject('Object Repository/Page_Element  Test chat room/div_Test chat room_mx_RoomHeader_chevron'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Upload_spaceName'), 'Quang Huy space')
+WebUI.click(findTestObject('Object Repository/Page_Element  Test chat room/span_Settings'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element/textarea_Quang Huy space'), 'Quang Huy space')
+WebUI.click(findTestObject('Object Repository/Page_Element  Test chat room/input_General_mx_Field_4'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Create'))
+WebUI.click(findTestObject('Object Repository/Page_Element  Test chat room/div_GeneralSecurity  PrivacyRoles  Permissi_f2bebd'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  Quang Huy space/div_Enable_mx_SpaceButton_icon'))
+WebUI.setText(findTestObject('Object Repository/Page_Element  Test chat room/input_General_mx_Field_4'), 'Chat room')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/span_Q'))
+WebUI.click(findTestObject('Object Repository/Page_Element  Test chat room/div_Save'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element  Test chat room/div_Room Settings - Chat room_mx_Accessible_4cefd2'))
 

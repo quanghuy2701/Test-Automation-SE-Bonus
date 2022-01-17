@@ -37,17 +37,16 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Cancel'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Cancel'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Chat room'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_PublicOpen space for anyone, best for c_08629a'))
+WebUI.click(findTestObject('Object Repository/Page_Element  Chat room/div'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Upload_spaceName'), 'Quang Huy space')
+WebUI.setText(findTestObject('Object Repository/Page_Element  Chat room/div_hello_mx_BasicMessageComposer_input mx__cb046d'), 
+    '<div style=""><br></div>')
 
-WebUI.setText(findTestObject('Object Repository/Page_Element/textarea_Quang Huy space'), 'Quang Huy space')
+WebUI.click(findTestObject('Object Repository/Page_Element  Chat room/div_hello_mx_AccessibleButton mx_MessageAct_33e60d'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Create'))
+WebUI.setText(findTestObject('Object Repository/Page_Element  Chat room/div_holle'), '<div style="">holle</div>')
 
-WebUI.click(findTestObject('Object Repository/Page_Element  Quang Huy space/div_Enable_mx_SpaceButton_icon'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/span_Q'))
+WebUI.click(findTestObject('Object Repository/Page_Element  Chat room/div_Save'))
 

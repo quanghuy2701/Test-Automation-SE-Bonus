@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>q</value>
+      <value>quanghuytest</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
