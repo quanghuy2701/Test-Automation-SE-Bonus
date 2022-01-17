@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Chat room</name>
+   <name>div_Chat roomChat room</name>
    <tag></tag>
-   <elementGuidId>83781175-5a02-4420-8678-99829553c757</elementGuidId>
+   <elementGuidId>60901969-0b7a-435f-a666-9471398e4ee8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.mx_RoomTile_nameContainer</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Chat room</value>
+      <value>Chat roomChat room</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Chat room</value>
+      <value>Chat roomChat room</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -140,13 +140,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Chat room']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Chat roomChat room']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[2]/div</value>
+      <value>//div[4]/div[2]/div/div/div[2]/div</value>
    </webElementXpaths>
 </WebElementEntity>

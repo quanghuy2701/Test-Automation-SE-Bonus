@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_hello_mx_BasicMessageComposer_input mx__cb046d</name>
+   <name>div_ok_mx_BasicMessageComposer_input mx_Bas_fcbe26</name>
    <tag></tag>
-   <elementGuidId>2b3b5134-312c-4f9e-b01f-8c3b1b9937df</elementGuidId>
+   <elementGuidId>fa26fa5d-1cdc-4397-aeb5-507c6d283bcd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.mx_BasicMessageComposer_input.mx_BasicMessageComposer_input_shouldShowPillAvatar.focus-visible.mx_BasicMessageComposer_inputEmpty</value>
+         <value>div.mx_BasicMessageComposer_input.mx_BasicMessageComposer_input_shouldShowPillAvatar.mx_BasicMessageComposer_inputEmpty.focus-visible</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mx_BasicMessageComposer_input mx_BasicMessageComposer_input_shouldShowPillAvatar focus-visible mx_BasicMessageComposer_inputEmpty</value>
+      <value>mx_BasicMessageComposer_input mx_BasicMessageComposer_input_shouldShowPillAvatar mx_BasicMessageComposer_inputEmpty focus-visible</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_RoomView_wrapper&quot;]/main[@class=&quot;mx_RoomView&quot;]/div[@class=&quot;mx_MainSplit&quot;]/div[@class=&quot;mx_RoomView_body&quot;]/div[@class=&quot;mx_MessageComposer mx_GroupLayout mx_MessageComposer_e2eStatus&quot;]/div[@class=&quot;mx_MessageComposer_wrapper&quot;]/div[@class=&quot;mx_MessageComposer_row&quot;]/div[@class=&quot;mx_SendMessageComposer&quot;]/div[@class=&quot;mx_BasicMessageComposer&quot;]/div[@class=&quot;mx_BasicMessageComposer_input mx_BasicMessageComposer_input_shouldShowPillAvatar focus-visible mx_BasicMessageComposer_inputEmpty&quot;]</value>
+      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_RoomView_wrapper&quot;]/main[@class=&quot;mx_RoomView&quot;]/div[@class=&quot;mx_MainSplit&quot;]/div[@class=&quot;mx_RoomView_body&quot;]/div[@class=&quot;mx_MessageComposer mx_GroupLayout mx_MessageComposer_e2eStatus&quot;]/div[@class=&quot;mx_MessageComposer_wrapper&quot;]/div[@class=&quot;mx_MessageComposer_row&quot;]/div[@class=&quot;mx_SendMessageComposer&quot;]/div[@class=&quot;mx_BasicMessageComposer&quot;]/div[@class=&quot;mx_BasicMessageComposer_input mx_BasicMessageComposer_input_shouldShowPillAvatar mx_BasicMessageComposer_inputEmpty focus-visible&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -126,21 +126,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='hello'])[1]/following::div[24]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ok'])[1]/following::div[27]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[5]/following::div[29]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hello'])[2]/following::div[28]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reply'])[1]/preceding::div[38]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='React'])[1]/preceding::div[59]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,33 +148,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div[2]/div/div[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quang Huy'])[2]/following::div[27]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='React'])[1]/preceding::div[34]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quang Huy'])[1]/following::div[27]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::div[30]</value>
    </webElementXpaths>
 </WebElementEntity>

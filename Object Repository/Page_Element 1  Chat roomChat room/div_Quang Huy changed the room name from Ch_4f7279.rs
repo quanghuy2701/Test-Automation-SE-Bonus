@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_hello_mx_BasicMessageComposer_input mx__cb046d</name>
+   <name>div_Quang Huy changed the room name from Ch_4f7279</name>
    <tag></tag>
-   <elementGuidId>2b3b5134-312c-4f9e-b01f-8c3b1b9937df</elementGuidId>
+   <elementGuidId>7c9fdf93-7111-4d39-9b8e-a8728b5532d2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -126,21 +126,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='hello'])[1]/following::div[24]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quang Huy changed the room name from Chat room to Chat roomChat room.'])[1]/following::div[20]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[5]/following::div[29]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ok'])[1]/following::div[29]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reply'])[1]/preceding::div[38]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send voice message'])[1]/preceding::div[23]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,33 +148,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div[2]/div/div[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quang Huy'])[2]/following::div[27]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='React'])[1]/preceding::div[34]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quang Huy'])[1]/following::div[27]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::div[30]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div[2]/div[3]/main/div[2]/div/div[2]/div/div/ol/li[10]/div[3]/div/div/div[2]</value>
+         <value>//section[@id='matrixchat']/div/div[2]/div[3]/main/div[2]/div/div[2]/div/div/ol/li[18]/div/div[2]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -112,10 +112,45 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_RoomView_wrapper&quot;]/main[@class=&quot;mx_RoomView&quot;]/div[@class=&quot;mx_MainSplit&quot;]/div[@class=&quot;mx_RoomView_body&quot;]/div[@class=&quot;mx_RoomView_timeline mx_RoomView_timeline_rr_enabled&quot;]/div[@class=&quot;mx_AutoHideScrollbar mx_ScrollPanel mx_RoomView_messagePanel mx_GroupLayout&quot;]/div[@class=&quot;mx_RoomView_messageListWrapper&quot;]/ol[@class=&quot;mx_RoomView_MessageList&quot;]/li[@class=&quot;mx_EventTile mx_EventTile_isEditing mx_EventTile_last mx_EventTile_lastInSection&quot;]/div[@class=&quot;mx_EventTile_line&quot;]/div[@class=&quot;mx_EditMessageComposer mx_EventTile_content&quot;]/div[@class=&quot;mx_BasicMessageComposer&quot;]/div[@class=&quot;mx_BasicMessageComposer_input mx_BasicMessageComposer_input_shouldShowPillAvatar focus-visible&quot;]</value>
+      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_RoomView_wrapper&quot;]/main[@class=&quot;mx_RoomView&quot;]/div[@class=&quot;mx_MainSplit&quot;]/div[@class=&quot;mx_RoomView_body&quot;]/div[@class=&quot;mx_RoomView_timeline mx_RoomView_timeline_rr_enabled&quot;]/div[@class=&quot;mx_AutoHideScrollbar mx_ScrollPanel mx_RoomView_messagePanel mx_GroupLayout&quot;]/div[@class=&quot;mx_RoomView_messageListWrapper&quot;]/ol[@class=&quot;mx_RoomView_MessageList&quot;]/li[@class=&quot;mx_EventTile mx_EventTile_isEditing mx_EventTile_continuation mx_EventTile_last mx_EventTile_lastInSection&quot;]/div[@class=&quot;mx_EventTile_line&quot;]/div[@class=&quot;mx_EditMessageComposer mx_EventTile_content&quot;]/div[@class=&quot;mx_BasicMessageComposer&quot;]/div[@class=&quot;mx_BasicMessageComposer_input mx_BasicMessageComposer_input_shouldShowPillAvatar focus-visible&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='matrixchat']/div/div[2]/div[3]/main/div[2]/div/div[2]/div/div/ol/li[18]/div/div[2]/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[10]/following::div[15]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Re-request encryption keys'])[10]/following::div[17]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[18]/div/div[2]/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -134,13 +169,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Quang Huy changed the room name from Test chat room to Chat room.'])[1]/following::div[16]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
