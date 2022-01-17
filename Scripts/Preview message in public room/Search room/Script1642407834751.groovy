@@ -37,7 +37,9 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_nchhuy19'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  nchhuy19/div_hi_mx_AccessibleButton mx_MessageCompos_f98501'))
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Create a new room_dirsearch'), 'quang')
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_Element/input_Create a new room_dirsearch'), Keys.chord(Keys.ENTER))
 

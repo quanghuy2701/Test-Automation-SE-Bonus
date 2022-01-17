@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Run all test cases</name>
+   <name>Run all test case</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,245 +10,305 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>1b59fc54-3774-4f0b-8aae-9278a6924a06</testSuiteGuid>
+   <testSuiteGuid>b074819e-e543-4bc6-a539-9a579f72f6c5</testSuiteGuid>
    <testCaseLink>
-      <guid>f8990479-23b8-4930-b4d1-3529a010dd5b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Sign up/Sign up with correct information</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f71ff813-9d38-4696-9cf7-d828d148f966</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Sign up/Sign up with an existed username</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>dc45cb25-c3cc-42f7-b057-75701c1b23e0</guid>
+      <guid>9b47b70f-e9ef-4615-8c63-d626299f026a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sign up/Sign up with an email that is registerd in sign in with email</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c71cf851-84f9-445b-b348-ed6dcb65822a</guid>
+      <guid>c707d388-858e-414b-9bcf-54cbb24b7e13</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sign up/Sign up with an existed username</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6b64b774-dfa1-49a9-89d5-833853ad093a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sign up/Sign up with correct information</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>918ef99a-a29f-42d7-bff8-f8767ea6efe8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sign up/Sign up with incorrect confirm password</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ab985cac-31eb-44cf-a486-235082ad1f77</guid>
+      <guid>71eabcb4-ddb9-4735-aa3e-189ebff9c049</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sign up/Sign up with username containing special character</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>eec7113e-97ed-491b-bc8e-7d80ee580c30</guid>
+      <guid>03a34bb4-f42f-4591-bf1f-9933c0cc7473</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sign up/Sign up without input email</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>82b80864-5497-438b-b415-230bc3087079</guid>
+      <guid>083c8bd6-402d-4697-8f25-18c93744fbe3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sign in with multiple platforms/Sign in with facebook</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4431154f-08c3-4a1c-8bcc-a33b76780e91</guid>
+      <guid>b9699a77-f984-459c-86b7-e5de9fb8024f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sign in with multiple platforms/Sign in with github</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b9763595-d9be-4730-bd18-c6fee4a04bb5</guid>
+      <guid>7ee94607-146e-4404-8d3b-2c2b428b52c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sign in with multiple platforms/Sign in with gitlab</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>46d8bf67-3d85-4b46-9eef-2a72de27ab6e</guid>
+      <guid>2516ff53-7d7b-4efe-9a40-05899e11916c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sign in manually/Setting vietnamese phone number for the account</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3544d6de-5ae6-41c5-aab9-f653a08e4888</guid>
+      <guid>d422fee4-3298-48bd-969b-98773067cbf2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sign in manually/Sign in with email address</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bd29c3e7-41ee-4813-8796-4f856dd2acfc</guid>
+      <guid>97352aa5-96bf-4a52-a1e5-2ded1a2c029f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sign in manually/Sign in with username</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ab9369c1-13dc-4ddf-a492-542688a7368c</guid>
+      <guid>698d823a-a25e-4b03-b750-3c2c1cbdbfef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sign in manually/Sign in with wrong password</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>07fce57d-0326-4b3e-8965-76e130fba37f</guid>
+      <guid>b1b151cd-8724-45d4-bcdb-7a46a7bff75a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sign in manually/Sign in with wrong username</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8748659f-321b-4b29-81a3-d8bf24d4ad7c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Chat in private room/Change name of room</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f68ebbc5-661f-496a-a029-808e9d272cb5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Chat in private room/Search in chatbox</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d9f1e8b7-678a-47f9-9724-0cef0f0e4dd2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Chat in private room/Send a message with emojis</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>92bd3154-61b7-4da8-89ab-aa6080270980</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Chat in private room/Send a message with special characters</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>30f957fd-0f56-47a4-85a9-32c88e8cdf1f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Chat in private room/Send message Hi</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>23bddfa9-f07f-4048-ac1d-9d0f481a24a3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Chat in private room/Send voice message</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e88a8a8e-6b54-4d62-8f01-411c7fa01552</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Chat in private room/Video call in an empty room</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ccefad63-4f82-4d38-8588-7f8a30ab64e3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Chat in private room/View notification</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>37329fb3-f44b-491e-90cb-7a592c1406a6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Chat in private room/View room info</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fd19b996-c9de-4401-b268-d437211b5578</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Chat in private room/Voice call in an empty room</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0186b921-b445-40fc-b980-daace5193c53</guid>
+      <guid>1a49acef-142e-4b40-aee4-07e87385a84e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sign in manually/Sign in without inputting username and password</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>81b9f661-0002-4e3c-9f0f-5357d9defc5d</guid>
+      <guid>c7780b5f-3cc1-4d13-b51d-206bc34c4804</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create a new space/Create a private space with an empty name</testCaseId>
+      <testCaseId>Test Cases/Chat in private room/Search in chatbox</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0458811a-96ef-49fe-9ae3-8a2e9b75bab6</guid>
+      <guid>c56e66d7-2745-45f8-8469-4eb90fa4efa3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in private room/Send a message with emojis</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>013bb360-b64b-4167-98e4-08f4ed7a6f7b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in private room/Change name of room</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2030b70b-3330-461f-aea7-b22259f410e5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in private room/Send message Hi</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4f4a61ab-7ecb-4ebc-bdbb-cf97d29a9f5f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in private room/Send voice message</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6acf2577-5c51-4cdc-806e-89a00a75c79c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in private room/Video call in an empty room</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6b8a0668-6e4d-4004-916d-cbb5b9dc06ba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in private room/View notification</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ed7f9f21-3502-4ad0-85ef-465faeee8faf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in private room/View room info</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>60978722-028c-4544-908a-83dbde13ba9f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in private room/Voice call in an empty room</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>05c4bd40-bef3-4ac6-8b24-2570443f33df</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in public room/Change the room name</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c19f016f-a922-496e-a881-d85066cc0516</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in public room/Double click button send</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d4d02cd6-7b77-4350-897f-50c71ab39f50</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in public room/Search in chatbox</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa50d8e2-8a5d-4a33-bc8d-95efebbf918d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in public room/Send a message</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eba0331a-90ee-4678-850d-2585792dd43f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in public room/Send a message with emoji</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>77e686cb-536c-4cbd-b481-207d6177347e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in private room/Send a message with special characters</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bd4abd39-1260-4e5e-9b02-b3b1eabc8ac1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in public room/Send voice message</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>19cc41ad-c19f-49d4-9f9c-2a419da1a9c7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chat in public room/View room info</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>68ce518a-5fe4-442e-b65e-1465d3cb751b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Chat with other account/Send a message</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b4eb108c-2bd0-48cf-bea8-0f597dbabd62</guid>
+      <guid>1d7e0bfd-c80c-4c94-812e-1dab8201c15d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Chat with other account/Send a message with emoji</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>40458790-62a2-4ec9-a79f-0ffd6c154d81</guid>
+      <guid>539017a8-2baf-429f-aa20-ca0e206f54a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Chat with other account/Send message with special characters</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>cba70a1b-b1c4-4a51-8917-9587b8c2deae</guid>
+      <guid>fe7051ad-a8cc-4294-af9e-b284fd5d62a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Chat with other account/Send voice chat</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0a83ea7d-8b8d-4275-87ec-781e68599405</guid>
+      <guid>de8f6c03-cd4c-47a8-9e48-88fdde1886b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Chat with other account/Start a new chat</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c0a1421a-af6c-43b6-be7d-0c52158cdcd2</guid>
+      <guid>729d64d6-55da-4791-bb76-5246041d3091</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Chat with other account/Video call</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6b099a0b-34d8-484c-8920-c6a6fd1315cd</guid>
+      <guid>6ff42712-502f-4fe8-b181-11b16f6271c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Chat with other account/Voice call</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fe8acb02-4e56-40e2-bbac-21ea1af547ae</guid>
+      <guid>1333a1e3-c5d5-435c-a5af-324fcf2776c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Preview message in public room/Copy room link</testCaseId>
+      <testCaseId>Test Cases/Create a new space/Create a private space with an empty name</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5bddfe84-b77c-4895-a2a8-44c67661a99c</guid>
+      <guid>2c380d4c-af05-48dd-954c-f54064bfa6ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Preview message in public room/Preview message</testCaseId>
+      <testCaseId>Test Cases/Chat in public room/Send a message with special characters</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9373bd4e-bad8-4eae-904a-f3442c3f38c7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Preview message in public room/View file</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bf59aa58-4e0f-4ab8-b018-1378cd215067</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create a new space/Create a public new space with an empty name</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ee080228-cc16-4e43-96ca-82dd6d83e88b</guid>
+      <guid>84062a4c-6753-4d70-8332-8a7eb734134a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create a new space/Create a public space with all correct information</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>84a69788-5584-4b76-9f89-a7d61827c8ef</guid>
+      <guid>fb266ea3-8c79-4156-9ea4-6274df24460a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create a new space/Create a public space with an empty address</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8df86144-ab41-44e8-8335-f4c6485da83b</guid>
+      <guid>ea5c1559-f64e-4ac6-b50e-e761d814e0e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create a new space/Create a public space with an existed address</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6663eb47-55be-4843-a4c0-5f78f4297f96</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Preview message in public room/Copy room link</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5aacbd0c-f5f6-4c45-80d5-354c1c81b24d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Preview message in public room/Preview message</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7f6780d1-ed12-41c0-b290-7dc529b1f0ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Preview message in public room/Search room</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f74a0cda-370c-4854-bf94-766ba92b1bab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Preview message in public room/View file</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>247beebe-0dd1-4dec-ad5f-7f583beeeadb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Preview message in public room/View members</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dc60d9a2-6321-4ac2-8c66-79cf9e51a625</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create a new space/Create a public new space with an empty name</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

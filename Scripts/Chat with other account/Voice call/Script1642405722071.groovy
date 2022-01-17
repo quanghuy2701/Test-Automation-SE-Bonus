@@ -17,3 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:8080/')
+
+WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'quanghuyne')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), 'hk4lGgMz64DUYAH1jDReqA==')
+
+WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with Security Key'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Security Key_mx_securityKey'), 'AM89fC/Z2L+0kQrgUJMoihakSLfqExGqqEDegROy7UCQVs01BySrESr2vAK0g5sjPD354BYtGaX7vGUm05HO7A==')
+
+WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element/div_nchhuy19'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element  nchhuy19/div_nchhuy19_mx_AccessibleButton mx_RoomHea_ed8803'))
+

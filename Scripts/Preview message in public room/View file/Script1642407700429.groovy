@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), 'hk4lGgMz64DUYAH1jDReqA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Element/input_Username_password'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with Security Key'))
 
@@ -37,7 +37,11 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_nchhuy19'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  nchhuy19/div_hi_mx_AccessibleButton mx_MessageCompos_f98501'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Preview'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element  Matrix HQ/div_Matrix HQ_mx_RoomHeader_chevron'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element  Matrix HQ/span_Files'))
 

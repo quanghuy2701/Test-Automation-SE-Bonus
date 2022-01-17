@@ -29,6 +29,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_User
 
 WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
 
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify your identity to access encrypte_310102'))
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with Security Key'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Security Key_mx_securityKey'), 'AM89fC/Z2L+0kQrgUJMoihakSLfqExGqqEDegROy7UCQVs01BySrESr2vAK0g5sjPD354BYtGaX7vGUm05HO7A==')
@@ -37,7 +39,15 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_nchhuy19'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_quanghuy93'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  nchhuy19/div_hi_mx_AccessibleButton mx_MessageCompos_f98501'))
+WebUI.setText(findTestObject('Object Repository/Page_Element  quanghuy93/div_hi'), '<div style="">hi</div>')
+
+WebUI.click(findTestObject('Object Repository/Page_Element  quanghuy93/div_hi_mx_AccessibleButton mx_MessageCompos_a1b40b'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element  quanghuy93/div_'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element  quanghuy93/div_This room is public_mx_ContextualMenu_b_fc4f75'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element  quanghuy93/div_hi_mx_AccessibleButton mx_MessageCompos_cccf2b'))
 

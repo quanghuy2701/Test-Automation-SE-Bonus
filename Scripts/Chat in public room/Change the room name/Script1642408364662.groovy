@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), 'hk4lGgMz64DUYAH1jDReqA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Element/input_Username_password'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with Security Key'))
 
@@ -37,7 +37,19 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_nchhuy19'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_quanghuybui93'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  nchhuy19/div_hi_mx_AccessibleButton mx_MessageCompos_f98501'))
+WebUI.click(findTestObject('Object Repository/Page_Element  quanghuybui93/div_Qquanghuybui93'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element  quanghuybui93/div_quanghuybui93_mx_AccessibleButton mx_Ro_1b9c9b'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element  quanghuybui93/span_Settings'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Element  quanghuybui93/input_General_mx_Field_4'), 'quanghuybui934')
+
+WebUI.click(findTestObject('Object Repository/Page_Element  quanghuybui93/div_GeneralSecurity  PrivacyRoles  Permissi_f2bebd'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Element  quanghuybui93/input_General_mx_Field_4'), 'quanghuy93')
+
+WebUI.click(findTestObject('Object Repository/Page_Element  quanghuybui93/div_Save'))
 

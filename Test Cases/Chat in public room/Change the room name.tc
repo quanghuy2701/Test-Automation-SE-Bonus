@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>View files</name>
+   <name>Change the room name</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3c495877-7d2f-44dd-8e2f-21e7995b1145</testCaseGuid>
+   <testCaseGuid>e628932c-e456-454c-843f-de7d746c1ad7</testCaseGuid>
 </TestCaseEntity>

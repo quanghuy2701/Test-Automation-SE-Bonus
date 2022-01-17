@@ -37,7 +37,9 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_nchhuy19'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_quanghuy93quanghuybui934quanghuy93'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  nchhuy19/div_hi_mx_AccessibleButton mx_MessageCompos_f98501'))
+WebUI.click(findTestObject('Object Repository/Page_Element  quanghuy93quanghuybui934quanghuy93/div_Quang Huy changed the room name from qu_cd57d1'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element  quanghuy93quanghuybui934quanghuy93/div_Quang Huy changed the room name from qu_4c2d40'))
 

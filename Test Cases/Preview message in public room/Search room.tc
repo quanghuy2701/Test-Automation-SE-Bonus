@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>View member list</name>
+   <name>Search room</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>70ebce3b-64c8-40d9-b4bb-cde858861d98</testCaseGuid>
+   <testCaseGuid>95f9d934-138d-4ea3-b852-a2437047f356</testCaseGuid>
 </TestCaseEntity>

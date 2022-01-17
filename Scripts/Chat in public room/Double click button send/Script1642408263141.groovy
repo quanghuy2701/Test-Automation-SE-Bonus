@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), 'hk4lGgMz64DUYAH1jDReqA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Element/input_Username_password'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with Security Key'))
 
@@ -35,9 +35,15 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Secu
 
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Device verifiedYour new device is now v_681f4b'))
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_nchhuy19'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_quanghuy93'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  nchhuy19/div_hi_mx_AccessibleButton mx_MessageCompos_f98501'))
+WebUI.click(findTestObject('Object Repository/Page_Element  quanghuy93/div'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Element  quanghuy93/div_aa'), '<div style="">aa</div>')
+
+WebUI.doubleClick(findTestObject('Object Repository/Page_Element  quanghuy93/div_aa_mx_AccessibleButton mx_MessageCompos_233a33'))
 
