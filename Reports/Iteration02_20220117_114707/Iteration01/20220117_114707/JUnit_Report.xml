@@ -1,0 +1,2019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Iteration01" time="8305.5" tests="30" failures="2" errors="0">
+   <testsuite name="Iteration01" tests="30" failures="2" errors="0" time="8305.5" skipped="0" timestamp="2022-01-17 11:47:19" hostname="QuangHuy - DESKTOP-A3NO6EJ.mshome.net" id="Test Suites/Iteration01">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\Katalon Studio\\Bonus SE\\Test-Automation-SE-Bonus\\Reports\\20220117_114707\\Iteration01\\20220117_114707"/>
+         <property name="logFiles" value="C:\\Users\\User\\Katalon Studio\\Bonus SE\\Test-Automation-SE-Bonus\\Reports\\20220117_114707\\Iteration01\\20220117_114707\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\Katalon Studio\\Bonus SE\\Test-Automation-SE-Bonus\\Reports\\20220117_114707\\Iteration01\\20220117_114707\\1642397529509.png, C:\\Users\\User\\Katalon Studio\\Bonus SE\\Test-Automation-SE-Bonus\\Reports\\20220117_114707\\Iteration01\\20220117_114707\\1642400254255.png"/>
+         <property name="hostName" value="QuangHuy - DESKTOP-A3NO6EJ.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="172.23.64.1"/>
+         <property name="sessionId" value="b3ad480f09ca42002bdba88b667a4dd4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sign up/Sign up with correct information" time="250.689" classname="Test Cases/Sign up/Sign up with correct information" status="PASSED">
+         <system-out><![CDATA[2022-01-17 11:47:19 - [TEST_CASE][PASSED] - Test Cases/Sign up/Sign up with correct information: Test Cases/Sign up/Sign up with correct information
+
+2022-01-17 11:47:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 11:47:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 11:47:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 11:47:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 11:47:25 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 11:47:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 11:47:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Create Account")): Object: 'Object Repository/Page_Element/a_Create Account' is clicked on
+
+2022-01-17 11:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Create Account' is clicked on
+
+2022-01-17 11:47:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Or_mx_RegistrationForm_username"), "hoanghuy123"): Text 'hoanghuy123' is set on object 'Object Repository/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-17 11:48:59 - [MESSAGE][PASSED] - Text 'hoanghuy123' is set on object 'Object Repository/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-17 11:48:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_mx_RegistrationForm_password"), "+prAWSr+2zbEAzlFsB6VFw=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-17 11:49:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-17 11:49:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), "+prAWSr+2zbEAzlFsB6VFw=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-17 11:49:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-17 11:49:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Confirm password_mx_Field_1"), "nchhuy19@apcs.fitus.edu.vn"): Text 'nchhuy19@apcs.fitus.edu.vn' is set on object 'Object Repository/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-17 11:50:59 - [MESSAGE][PASSED] - Text 'nchhuy19@apcs.fitus.edu.vn' is set on object 'Object Repository/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-17 11:50:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Email_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Email_mx_Login_submit' is clicked on
+
+2022-01-17 11:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Email_mx_Login_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign up/Sign up with an existed username" time="336.632" classname="Test Cases/Sign up/Sign up with an existed username" status="PASSED">
+         <system-out><![CDATA[2022-01-17 11:51:30 - [TEST_CASE][PASSED] - Test Cases/Sign up/Sign up with an existed username: Test Cases/Sign up/Sign up with an existed username
+
+2022-01-17 11:51:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 11:51:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 11:51:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 11:51:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 11:51:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 11:51:32 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 11:51:34 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 11:51:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Create Account")): Object: 'Object Repository/Page_Element/a_Create Account' is clicked on
+
+2022-01-17 11:52:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Create Account' is clicked on
+
+2022-01-17 11:52:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Or_mx_RegistrationForm_username"), "bqhuy19"): Text 'bqhuy19' is set on object 'Object Repository/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-17 11:53:05 - [MESSAGE][PASSED] - Text 'bqhuy19' is set on object 'Object Repository/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-17 11:53:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_mx_RegistrationForm_password"), "hk4lGgMz64ADmWBUEkMbyw=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-17 11:53:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-17 11:53:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Confirm password")): Object: 'Object Repository/Page_Element/div_Confirm password' is clicked on
+
+2022-01-17 11:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Confirm password' is clicked on
+
+2022-01-17 11:54:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), "hk4lGgMz64ADmWBUEkMbyw=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-17 11:54:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-17 11:54:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Confirm password_mx_Field_1"), "nchhuy19@apcs.fitus.edu.vn"): Text 'nchhuy19@apcs.fitus.edu.vn' is set on object 'Object Repository/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-17 11:55:36 - [MESSAGE][PASSED] - Text 'nchhuy19@apcs.fitus.edu.vn' is set on object 'Object Repository/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-17 11:55:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Email_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Email_mx_Login_submit' is clicked on
+
+2022-01-17 11:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Email_mx_Login_submit' is clicked on
+
+2022-01-17 11:56:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Or_mx_RegistrationForm_username")): Object: 'Object Repository/Page_Element/input_Or_mx_RegistrationForm_username' is clicked on
+
+2022-01-17 11:56:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Or_mx_RegistrationForm_username' is clicked on
+
+2022-01-17 11:56:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Create accountHost account onmatrix.org_6b4dd0")): Object: 'Object Repository/Page_Element/div_Create accountHost account onmatrix.org_6b4dd0' is clicked on
+
+2022-01-17 11:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Create accountHost account onmatrix.org_6b4dd0' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign up/Sign up with an email that is registerd in sign in with email" time="250.466" classname="Test Cases/Sign up/Sign up with an email that is registerd in sign in with email" status="PASSED">
+         <system-out><![CDATA[2022-01-17 11:57:06 - [TEST_CASE][PASSED] - Test Cases/Sign up/Sign up with an email that is registerd in sign in with email: Test Cases/Sign up/Sign up with an email that is registerd in sign in with email
+
+2022-01-17 11:57:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 11:57:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 11:57:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 11:57:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 11:57:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 11:57:08 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 11:57:10 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 11:57:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Create Account")): Object: 'Object Repository/Page_Element/a_Create Account' is clicked on
+
+2022-01-17 11:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Create Account' is clicked on
+
+2022-01-17 11:57:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Or_mx_RegistrationForm_username"), "quanghuytest123"): Text 'quanghuytest123' is set on object 'Object Repository/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-17 11:58:15 - [MESSAGE][PASSED] - Text 'quanghuytest123' is set on object 'Object Repository/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-17 11:58:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_mx_RegistrationForm_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-17 11:58:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-17 11:58:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Confirm password")): Object: 'Object Repository/Page_Element/div_Confirm password' is clicked on
+
+2022-01-17 11:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Confirm password' is clicked on
+
+2022-01-17 11:59:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-17 11:59:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-17 11:59:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Confirm password_mx_Field_1"), "quanghuybui93@gmail.com"): Text 'quanghuybui93@gmail.com' is set on object 'Object Repository/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-17 12:00:16 - [MESSAGE][PASSED] - Text 'quanghuybui93@gmail.com' is set on object 'Object Repository/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-17 12:00:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Email_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Email_mx_Login_submit' is clicked on
+
+2022-01-17 12:00:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Email_mx_Login_submit' is clicked on
+
+2022-01-17 12:00:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_That e-mail address is already in use")): Object: 'Object Repository/Page_Element/div_That e-mail address is already in use' is clicked on
+
+2022-01-17 12:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_That e-mail address is already in use' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign up/Sign up with incorrect confirm password" time="251.036" classname="Test Cases/Sign up/Sign up with incorrect confirm password" status="PASSED">
+         <system-out><![CDATA[2022-01-17 12:01:17 - [TEST_CASE][PASSED] - Test Cases/Sign up/Sign up with incorrect confirm password: Test Cases/Sign up/Sign up with incorrect confirm password
+
+2022-01-17 12:01:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 12:01:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 12:01:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 12:01:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 12:01:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 12:01:19 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:01:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:01:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Create Account")): Object: 'Object Repository/Page_Element/a_Create Account' is clicked on
+
+2022-01-17 12:01:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Create Account' is clicked on
+
+2022-01-17 12:01:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Or_mx_RegistrationForm_username"), "bqhuy342"): Text 'bqhuy342' is set on object 'Object Repository/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-17 12:02:25 - [MESSAGE][PASSED] - Text 'bqhuy342' is set on object 'Object Repository/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-17 12:02:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_mx_RegistrationForm_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-17 12:02:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-17 12:02:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), "hk4lGgMz64AmQDO542nGmg=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-17 12:02:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-17 12:02:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Confirm password_mx_Field_1"), "nchhuy19@apcs.fitus.edu.vn"): Text 'nchhuy19@apcs.fitus.edu.vn' is set on object 'Object Repository/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-17 12:03:57 - [MESSAGE][PASSED] - Text 'nchhuy19@apcs.fitus.edu.vn' is set on object 'Object Repository/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-17 12:03:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Email_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Email_mx_Login_submit' is clicked on
+
+2022-01-17 12:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Email_mx_Login_submit' is clicked on
+
+2022-01-17 12:04:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Create accountHost account onmatrix.org_6b4dd0")): Object: 'Object Repository/Page_Element/div_Create accountHost account onmatrix.org_6b4dd0' is clicked on
+
+2022-01-17 12:04:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Create accountHost account onmatrix.org_6b4dd0' is clicked on
+
+2022-01-17 12:04:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Email_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Email_mx_Login_submit' is clicked on
+
+2022-01-17 12:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Email_mx_Login_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign up/Sign up with username containing special character" time="220.931" classname="Test Cases/Sign up/Sign up with username containing special character" status="PASSED">
+         <system-out><![CDATA[2022-01-17 12:05:28 - [TEST_CASE][PASSED] - Test Cases/Sign up/Sign up with username containing special character: Test Cases/Sign up/Sign up with username containing special character
+
+2022-01-17 12:05:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 12:05:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 12:05:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 12:05:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 12:05:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 12:05:30 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:05:32 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:05:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Create Account")): Object: 'Object Repository/Page_Element/a_Create Account' is clicked on
+
+2022-01-17 12:05:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Create Account' is clicked on
+
+2022-01-17 12:05:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Or_mx_RegistrationForm_username"), "#$21!dsas"): Text '#$21!dsas' is set on object 'Object Repository/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-17 12:06:35 - [MESSAGE][PASSED] - Text '#$21!dsas' is set on object 'Object Repository/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-17 12:06:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_mx_RegistrationForm_password"), "hk4lGgMz64ADmWBUEkMbyw=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-17 12:07:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-17 12:07:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), "hk4lGgMz64ADmWBUEkMbyw=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-17 12:07:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-17 12:07:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Confirm password_mx_Field_1"), "nchhuy19@apcs.fitus.edu.vn"): Text 'nchhuy19@apcs.fitus.edu.vn' is set on object 'Object Repository/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-17 12:08:08 - [MESSAGE][PASSED] - Text 'nchhuy19@apcs.fitus.edu.vn' is set on object 'Object Repository/Page_Element/input_Confirm password_mx_Field_1'
+
+2022-01-17 12:08:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Email_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Email_mx_Login_submit' is clicked on
+
+2022-01-17 12:08:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Email_mx_Login_submit' is clicked on
+
+2022-01-17 12:08:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Create accountHost account onmatrix.org_6b4dd0")): Object: 'Object Repository/Page_Element/div_Create accountHost account onmatrix.org_6b4dd0' is clicked on
+
+2022-01-17 12:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Create accountHost account onmatrix.org_6b4dd0' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign up/Sign up without input email" time="187.562" classname="Test Cases/Sign up/Sign up without input email" status="PASSED">
+         <system-out><![CDATA[2022-01-17 12:09:09 - [TEST_CASE][PASSED] - Test Cases/Sign up/Sign up without input email: Test Cases/Sign up/Sign up without input email
+
+2022-01-17 12:09:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 12:09:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 12:09:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 12:09:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 12:09:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 12:09:11 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:09:13 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:09:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Create Account")): Object: 'Object Repository/Page_Element/div_Create Account' is clicked on
+
+2022-01-17 12:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Create Account' is clicked on
+
+2022-01-17 12:09:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Or_mx_RegistrationForm_username"), "quanghuyyy"): Text 'quanghuyyy' is set on object 'Object Repository/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-17 12:10:16 - [MESSAGE][PASSED] - Text 'quanghuyyy' is set on object 'Object Repository/Page_Element/input_Or_mx_RegistrationForm_username'
+
+2022-01-17 12:10:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_mx_RegistrationForm_password"), "hk4lGgMz64ADmWBUEkMbyw=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-17 12:10:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_mx_RegistrationForm_password'
+
+2022-01-17 12:10:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm"), "hk4lGgMz64ADmWBUEkMbyw=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-17 12:11:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'
+
+2022-01-17 12:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Email_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Email_mx_Login_submit' is clicked on
+
+2022-01-17 12:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Email_mx_Login_submit' is clicked on
+
+2022-01-17 12:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Create accountHost account onmatrix.org_6b4dd0")): Object: 'Object Repository/Page_Element/div_Create accountHost account onmatrix.org_6b4dd0' is clicked on
+
+2022-01-17 12:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Create accountHost account onmatrix.org_6b4dd0' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in with multiple platforms/Sign in with facebook" time="75.215" classname="Test Cases/Sign in with multiple platforms/Sign in with facebook" status="PASSED">
+         <system-out><![CDATA[2022-01-17 12:12:16 - [TEST_CASE][PASSED] - Test Cases/Sign in with multiple platforms/Sign in with facebook: Test Cases/Sign in with multiple platforms/Sign in with facebook
+
+2022-01-17 12:12:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 12:12:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 12:12:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 12:12:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 12:12:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 12:12:19 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:12:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:12:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 12:12:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 12:12:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Forgot password_mx_AccessibleButton mx__35ae1c")): Object: 'Object Repository/Page_Element/div_Forgot password_mx_AccessibleButton mx__35ae1c' is clicked on
+
+2022-01-17 12:13:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Forgot password_mx_AccessibleButton mx__35ae1c' is clicked on
+
+2022-01-17 12:13:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Log in to Facebook  Facebook/input_Log in to Facebook_email"), "0983968160"): Text '0983968160' is set on object 'Object Repository/Page_Log in to Facebook  Facebook/input_Log in to Facebook_email'
+
+2022-01-17 12:13:25 - [MESSAGE][PASSED] - Text '0983968160' is set on object 'Object Repository/Page_Log in to Facebook  Facebook/input_Log in to Facebook_email'
+
+2022-01-17 12:13:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Log in to Facebook  Facebook/input_Log in to Facebook_pass"), "n96v9XD7GiYYeIhd8A/xmw=="): Text ****** has been set on object 'Object Repository/Page_Log in to Facebook  Facebook/input_Log in to Facebook_pass'
+
+2022-01-17 12:13:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in to Facebook  Facebook/input_Log in to Facebook_pass'
+
+2022-01-17 12:13:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Log in to Facebook  Facebook/button_Log In")): Object: 'Object Repository/Page_Log in to Facebook  Facebook/button_Log In' is clicked on
+
+2022-01-17 12:13:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in to Facebook  Facebook/button_Log In' is clicked on
+
+2022-01-17 12:13:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Continue to your account/a_Continue")): Object: 'Object Repository/Page_Continue to your account/a_Continue' is clicked on
+
+2022-01-17 12:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Continue to your account/a_Continue' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in with multiple platforms/Sign in with github" time="41.126" classname="Test Cases/Sign in with multiple platforms/Sign in with github" status="PASSED">
+         <system-out><![CDATA[2022-01-17 12:13:32 - [TEST_CASE][PASSED] - Test Cases/Sign in with multiple platforms/Sign in with github: Test Cases/Sign in with multiple platforms/Sign in with github
+
+2022-01-17 12:13:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 12:13:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 12:13:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 12:13:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 12:13:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 12:13:34 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:13:35 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:13:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 12:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 12:13:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Forgot password_mx_AccessibleButton mx__5d3fbf")): Object: 'Object Repository/Page_Element/div_Forgot password_mx_AccessibleButton mx__5d3fbf' is clicked on
+
+2022-01-17 12:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Forgot password_mx_AccessibleButton mx__5d3fbf' is clicked on
+
+2022-01-17 12:14:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login"), "quanghuy2701"): Text 'quanghuy2701' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2022-01-17 12:14:11 - [MESSAGE][PASSED] - Text 'quanghuy2701' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'
+
+2022-01-17 12:14:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign in to GitHub  GitHub/input_Password_password"), "hk4lGgMz64Dt/7aG6vaJCw=="): Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Password_password'
+
+2022-01-17 12:14:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Password_password'
+
+2022-01-17 12:14:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign in to GitHub  GitHub/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Password_password'
+
+2022-01-17 12:14:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Password_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in with multiple platforms/Sign in with gitlab" time="0.305" classname="Test Cases/Sign in with multiple platforms/Sign in with gitlab" status="PASSED">
+         <system-out><![CDATA[2022-01-17 12:14:13 - [TEST_CASE][PASSED] - Test Cases/Sign in with multiple platforms/Sign in with gitlab: Test Cases/Sign in with multiple platforms/Sign in with gitlab
+
+2022-01-17 12:14:13 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in manually/Setting vietnamese phone number for the account" time="478.486" classname="Test Cases/Sign in manually/Setting vietnamese phone number for the account" status="PASSED">
+         <system-out><![CDATA[2022-01-17 12:14:13 - [TEST_CASE][PASSED] - Test Cases/Sign in manually/Setting vietnamese phone number for the account: Test Cases/Sign in manually/Setting vietnamese phone number for the account
+
+2022-01-17 12:14:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 12:14:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 12:14:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 12:14:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 12:14:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 12:14:15 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:14:18 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:14:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 12:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 12:14:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:15:50 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:15:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:16:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:16:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 12:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 12:16:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Reset all")): Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 12:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 12:16:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Proceed with reset")): Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 12:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 12:17:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:17:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:18:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image")): Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-17 12:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-17 12:18:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_All settings")): Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-17 12:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-17 12:19:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input__mx_Field_10")): Object: 'Object Repository/Page_Element/input__mx_Field_10' is clicked on
+
+2022-01-17 12:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input__mx_Field_10' is clicked on
+
+2022-01-17 12:19:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_44")): Object: 'Object Repository/Page_Element/span_44' is clicked on
+
+2022-01-17 12:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_44' is clicked on
+
+2022-01-17 12:20:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Vietnam (84)")): Object: 'Object Repository/Page_Element/div_Vietnam (84)' is clicked on
+
+2022-01-17 12:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Vietnam (84)' is clicked on
+
+2022-01-17 12:20:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input__mx_Field_10"), "0983968160"): Text '0983968160' is set on object 'Object Repository/Page_Element/input__mx_Field_10'
+
+2022-01-17 12:21:36 - [MESSAGE][PASSED] - Text '0983968160' is set on object 'Object Repository/Page_Element/input__mx_Field_10'
+
+2022-01-17 12:21:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Add")): Object: 'Object Repository/Page_Element/div_Add' is clicked on
+
+2022-01-17 12:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Add' is clicked on
+
+2022-01-17 12:21:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_OK")): Object: 'Object Repository/Page_Element/button_OK' is clicked on
+
+2022-01-17 12:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_OK' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in manually/Sign in with email address" time="128.74" classname="Test Cases/Sign in manually/Sign in with email address" status="PASSED">
+         <system-out><![CDATA[2022-01-17 12:22:11 - [TEST_CASE][PASSED] - Test Cases/Sign in manually/Sign in with email address: Test Cases/Sign in manually/Sign in with email address
+
+2022-01-17 12:22:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 12:22:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 12:22:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 12:22:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 12:22:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 12:22:14 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:22:16 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:22:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-17 12:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-17 12:22:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuybui93@gmail.com"): Text 'quanghuybui93@gmail.com' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:23:20 - [MESSAGE][PASSED] - Text 'quanghuybui93@gmail.com' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:23:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:23:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:23:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 12:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in manually/Sign in with username" time="155.156" classname="Test Cases/Sign in manually/Sign in with username" status="PASSED">
+         <system-out><![CDATA[2022-01-17 12:24:20 - [TEST_CASE][PASSED] - Test Cases/Sign in manually/Sign in with username: Test Cases/Sign in manually/Sign in with username
+
+2022-01-17 12:24:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 12:24:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 12:24:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 12:24:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 12:24:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 12:24:22 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:24:24 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:24:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-17 12:24:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-17 12:24:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:25:55 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:25:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:26:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:26:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 12:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in manually/Sign in with wrong password" time="157.707" classname="Test Cases/Sign in manually/Sign in with wrong password" status="PASSED">
+         <system-out><![CDATA[2022-01-17 12:26:55 - [TEST_CASE][PASSED] - Test Cases/Sign in manually/Sign in with wrong password: Test Cases/Sign in manually/Sign in with wrong password
+
+2022-01-17 12:26:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 12:26:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 12:26:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 12:26:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 12:26:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 12:26:58 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:26:59 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:26:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 12:27:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 12:27:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:28:03 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:28:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64A6VWkU4ftybPhnP1Qb4byR"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:28:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:28:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 12:29:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 12:29:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Incorrect username andor password")): Object: 'Object Repository/Page_Element/div_Incorrect username andor password' is clicked on
+
+2022-01-17 12:29:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Incorrect username andor password' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in manually/Sign in with wrong username" time="156.472" classname="Test Cases/Sign in manually/Sign in with wrong username" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sign in manually/Sign in with wrong username FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sign in with wrong username.run(Sign in with wrong username:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642394827502.run(TempTestSuite1642394827502.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_Password' located by '//section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-01-17 12:29:33 - [TEST_CASE][FAILED] - Test Cases/Sign in manually/Sign in with wrong username: Test Cases/Sign in manually/Sign in with wrong username FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sign in with wrong username.run(Sign in with wrong username:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642394827502.run(TempTestSuite1642394827502.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_Password' located by '//section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-01-17 12:29:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 12:29:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 12:29:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 12:29:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 12:29:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 12:29:36 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:29:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:29:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 12:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 12:30:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ưqdhkahshdhahksd"): Text 'ưqdhkahshdhahksd' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:31:09 - [MESSAGE][PASSED] - Text 'ưqdhkahshdhahksd' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:31:09 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Element/div_Password")): Unable to click on object 'Object Repository/Page_Element/div_Password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sign in with wrong username.run(Sign in with wrong username:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642394827502.run(TempTestSuite1642394827502.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_Password' located by '//section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1642340806154.run(Script1642340806154.groovy:28)
+	... 13 more
+)
+
+2022-01-17 12:32:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-17 12:32:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Element/div_Password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sign in with wrong username.run(Sign in with wrong username:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642394827502.run(TempTestSuite1642394827502.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_Password' located by '//section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1642340806154.run(Script1642340806154.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\User\\Katalon Studio\\Bonus SE\\Test-Automation-SE-Bonus\\Reports\\20220117_114707\\Iteration01\\20220117_114707\\1642397529509.png]]]]></system-out>
+         <system-err><![CDATA[2022-01-17 12:29:33 - [TEST_CASE][FAILED] - Test Cases/Sign in manually/Sign in with wrong username: Test Cases/Sign in manually/Sign in with wrong username FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sign in with wrong username.run(Sign in with wrong username:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642394827502.run(TempTestSuite1642394827502.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_Password' located by '//section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat in private room/Change name of room" time="494.861" classname="Test Cases/Chat in private room/Change name of room" status="PASSED">
+         <system-out><![CDATA[2022-01-17 12:32:10 - [TEST_CASE][PASSED] - Test Cases/Chat in private room/Change name of room: Test Cases/Chat in private room/Change name of room
+
+2022-01-17 12:32:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 12:32:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 12:32:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 12:32:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 12:32:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 12:32:12 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:32:13 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:32:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 12:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 12:32:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:33:44 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:33:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:34:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 12:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 12:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify this deviceVerify your identity _6fde71")): Object: 'Object Repository/Page_Element/div_Verify this deviceVerify your identity _6fde71' is clicked on
+
+2022-01-17 12:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify this deviceVerify your identity _6fde71' is clicked on
+
+2022-01-17 12:34:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Reset all")): Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 12:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 12:34:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Proceed with reset")): Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 12:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 12:35:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:36:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:36:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Test chat room")): Object: 'Object Repository/Page_Element/div_Test chat room' is clicked on
+
+2022-01-17 12:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Test chat room' is clicked on
+
+2022-01-17 12:36:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Test chat room/div_Test chat room_mx_RoomHeader_chevron")): Object: 'Object Repository/Page_Element  Test chat room/div_Test chat room_mx_RoomHeader_chevron' is clicked on
+
+2022-01-17 12:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Test chat room/div_Test chat room_mx_RoomHeader_chevron' is clicked on
+
+2022-01-17 12:37:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Test chat room/span_Settings")): Object: 'Object Repository/Page_Element  Test chat room/span_Settings' is clicked on
+
+2022-01-17 12:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Test chat room/span_Settings' is clicked on
+
+2022-01-17 12:37:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Test chat room/input_General_mx_Field_4")): Object: 'Object Repository/Page_Element  Test chat room/input_General_mx_Field_4' is clicked on
+
+2022-01-17 12:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Test chat room/input_General_mx_Field_4' is clicked on
+
+2022-01-17 12:38:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Test chat room/div_GeneralSecurity  PrivacyRoles  Permissi_f2bebd")): Object: 'Object Repository/Page_Element  Test chat room/div_GeneralSecurity  PrivacyRoles  Permissi_f2bebd' is clicked on
+
+2022-01-17 12:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Test chat room/div_GeneralSecurity  PrivacyRoles  Permissi_f2bebd' is clicked on
+
+2022-01-17 12:38:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element  Test chat room/input_General_mx_Field_4"), "Chat room"): Text 'Chat room' is set on object 'Object Repository/Page_Element  Test chat room/input_General_mx_Field_4'
+
+2022-01-17 12:39:24 - [MESSAGE][PASSED] - Text 'Chat room' is set on object 'Object Repository/Page_Element  Test chat room/input_General_mx_Field_4'
+
+2022-01-17 12:39:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Test chat room/div_Save")): Object: 'Object Repository/Page_Element  Test chat room/div_Save' is clicked on
+
+2022-01-17 12:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Test chat room/div_Save' is clicked on
+
+2022-01-17 12:39:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Test chat room/div_Room Settings - Chat room_mx_Accessible_4cefd2")): Object: 'Object Repository/Page_Element  Test chat room/div_Room Settings - Chat room_mx_Accessible_4cefd2' is clicked on
+
+2022-01-17 12:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Test chat room/div_Room Settings - Chat room_mx_Accessible_4cefd2' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat in private room/Search in chatbox" time="432.64" classname="Test Cases/Chat in private room/Search in chatbox" status="PASSED">
+         <system-out><![CDATA[2022-01-17 12:40:24 - [TEST_CASE][PASSED] - Test Cases/Chat in private room/Search in chatbox: Test Cases/Chat in private room/Search in chatbox
+
+2022-01-17 12:40:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 12:40:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 12:40:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 12:40:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 12:40:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 12:40:27 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:40:29 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:40:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-17 12:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-17 12:41:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:42:01 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:42:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:42:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:42:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Element/input_Username_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:43:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:43:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Reset all")): Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 12:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 12:43:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Proceed with reset")): Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 12:44:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 12:44:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:44:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:44:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:45:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Chat room")): Object: 'Object Repository/Page_Element/div_Chat room' is clicked on
+
+2022-01-17 12:45:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Chat room' is clicked on
+
+2022-01-17 12:45:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Chat room/div_Chat room_mx_AccessibleButton mx_RoomHe_38521f")): Object: 'Object Repository/Page_Element  Chat room/div_Chat room_mx_AccessibleButton mx_RoomHe_38521f' is clicked on
+
+2022-01-17 12:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Chat room/div_Chat room_mx_AccessibleButton mx_RoomHe_38521f' is clicked on
+
+2022-01-17 12:46:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element  Chat room/input_All Rooms_focus-visible"), "unable"): Text 'unable' is set on object 'Object Repository/Page_Element  Chat room/input_All Rooms_focus-visible'
+
+2022-01-17 12:47:07 - [MESSAGE][PASSED] - Text 'unable' is set on object 'Object Repository/Page_Element  Chat room/input_All Rooms_focus-visible'
+
+2022-01-17 12:47:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Element  Chat room/input_All Rooms_focus-visible"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element  Chat room/input_All Rooms_focus-visible'
+
+2022-01-17 12:47:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element  Chat room/input_All Rooms_focus-visible']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat in private room/Send a message with emojis" time="366.374" classname="Test Cases/Chat in private room/Send a message with emojis" status="PASSED">
+         <system-out><![CDATA[2022-01-17 12:47:37 - [TEST_CASE][PASSED] - Test Cases/Chat in private room/Send a message with emojis: Test Cases/Chat in private room/Send a message with emojis
+
+2022-01-17 12:47:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 12:47:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 12:47:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 12:47:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 12:47:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 12:47:39 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:47:41 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:47:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 12:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 12:48:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:49:12 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:49:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:49:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:49:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Element/input_Username_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:50:12 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:50:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Reset all")): Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 12:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 12:50:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Proceed with reset")): Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 12:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 12:51:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:51:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Chat room")): Object: 'Object Repository/Page_Element/div_Chat room' is clicked on
+
+2022-01-17 12:52:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Chat room' is clicked on
+
+2022-01-17 12:52:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Chat room/div__mx_AccessibleButton mx_MessageComposer_717fb8")): Object: 'Object Repository/Page_Element  Chat room/div__mx_AccessibleButton mx_MessageComposer_717fb8' is clicked on
+
+2022-01-17 12:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Chat room/div__mx_AccessibleButton mx_MessageComposer_717fb8' is clicked on
+
+2022-01-17 12:53:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Chat room/div_")): Object: 'Object Repository/Page_Element  Chat room/div_' is clicked on
+
+2022-01-17 12:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Chat room/div_' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat in private room/Send a message with special characters" time="249.401" classname="Test Cases/Chat in private room/Send a message with special characters" status="PASSED">
+         <system-out><![CDATA[2022-01-17 12:53:43 - [TEST_CASE][PASSED] - Test Cases/Chat in private room/Send a message with special characters: Test Cases/Chat in private room/Send a message with special characters
+
+2022-01-17 12:53:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 12:53:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 12:53:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 12:53:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 12:53:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 12:53:46 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:53:47 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-17 12:53:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-17 12:53:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:54:52 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:54:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:55:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:55:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Element/input_Username_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:55:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:55:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Reset all")): Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 12:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 12:55:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Proceed with reset")): Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 12:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 12:56:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:56:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 12:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_CChat room")): Object: 'Object Repository/Page_Element/div_CChat room' is clicked on
+
+2022-01-17 12:57:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_CChat room' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat in private room/Send message Hi" time="285.062" classname="Test Cases/Chat in private room/Send message Hi" status="PASSED">
+         <system-out><![CDATA[2022-01-17 12:57:53 - [TEST_CASE][PASSED] - Test Cases/Chat in private room/Send message Hi: Test Cases/Chat in private room/Send message Hi
+
+2022-01-17 12:57:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 12:57:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 12:57:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 12:57:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 12:57:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 12:57:55 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:57:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 12:57:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-17 12:58:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-17 12:58:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:59:00 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 12:59:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:59:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 12:59:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Element/input_Username_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:00:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:00:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Reset all")): Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 13:00:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 13:00:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Proceed with reset")): Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 13:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 13:01:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:02:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Chat room")): Object: 'Object Repository/Page_Element/div_Chat room' is clicked on
+
+2022-01-17 13:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Chat room' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat in private room/Send voice message" time="314.123" classname="Test Cases/Chat in private room/Send voice message" status="PASSED">
+         <system-out><![CDATA[2022-01-17 13:02:38 - [TEST_CASE][PASSED] - Test Cases/Chat in private room/Send voice message: Test Cases/Chat in private room/Send voice message
+
+2022-01-17 13:02:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 13:02:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 13:02:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 13:02:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 13:02:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 13:02:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 13:02:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 13:02:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 13:02:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 13:02:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 13:02:42 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:02:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:02:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-17 13:02:45 - [MESSAGE][PASSED] - Browser is closed
+
+2022-01-17 13:02:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 13:02:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 13:02:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 13:02:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 13:02:46 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:02:48 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:02:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:02:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:03:51 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:03:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:04:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:04:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Element/input_Username_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:04:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:04:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element 1/div_Verify with Security Key")): Object: 'Object Repository/Page_Element 1/div_Verify with Security Key' is clicked on
+
+2022-01-17 13:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element 1/div_Verify with Security Key' is clicked on
+
+2022-01-17 13:05:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element 1/input_Security Key_mx_securityKey"), "AM89fC/Z2L+0kQrgUJMoihakSLfqExGqqEDegROy7UCQVs01BySrESr2vAK0g5sjPD354BYtGaX7vGUm05HO7A=="): Text ****** has been set on object 'Object Repository/Page_Element 1/input_Security Key_mx_securityKey'
+
+2022-01-17 13:05:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element 1/input_Security Key_mx_securityKey'
+
+2022-01-17 13:05:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element 1/button_Continue")): Object: 'Object Repository/Page_Element 1/button_Continue' is clicked on
+
+2022-01-17 13:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element 1/button_Continue' is clicked on
+
+2022-01-17 13:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element 1/div_Done")): Object: 'Object Repository/Page_Element 1/div_Done' is clicked on
+
+2022-01-17 13:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element 1/div_Done' is clicked on
+
+2022-01-17 13:06:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element 1/div_Chat roomChat room")): Object: 'Object Repository/Page_Element 1/div_Chat roomChat room' is clicked on
+
+2022-01-17 13:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element 1/div_Chat roomChat room' is clicked on
+
+2022-01-17 13:06:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element 1  Chat roomChat room/div_Error processing voice message_mx_Acces_8433cb")): Object: 'Object Repository/Page_Element 1  Chat roomChat room/div_Error processing voice message_mx_Acces_8433cb' is clicked on
+
+2022-01-17 13:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element 1  Chat roomChat room/div_Error processing voice message_mx_Acces_8433cb' is clicked on
+
+2022-01-17 13:07:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element 1  Chat roomChat room/div_Error processing voice message_mx_Acces_a7d166")): Object: 'Object Repository/Page_Element 1  Chat roomChat room/div_Error processing voice message_mx_Acces_a7d166' is clicked on
+
+2022-01-17 13:07:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element 1  Chat roomChat room/div_Error processing voice message_mx_Acces_a7d166' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat in private room/Video call in an empty room" time="366.394" classname="Test Cases/Chat in private room/Video call in an empty room" status="PASSED">
+         <system-out><![CDATA[2022-01-17 13:07:52 - [TEST_CASE][PASSED] - Test Cases/Chat in private room/Video call in an empty room: Test Cases/Chat in private room/Video call in an empty room
+
+2022-01-17 13:07:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 13:07:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 13:07:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 13:07:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 13:07:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 13:07:54 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:07:56 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:07:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:08:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:09:27 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:09:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:09:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:09:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Element/input_Username_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:10:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:10:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 13:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 13:11:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_securityKey"), "AM89fC/Z2L+0kQrgUJMoihakSLfqExGqqEDegROy7UCQVs01BySrESr2vAK0g5sjPD354BYtGaX7vGUm05HO7A=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_securityKey'
+
+2022-01-17 13:11:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_securityKey'
+
+2022-01-17 13:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-17 13:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-17 13:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-17 13:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-17 13:12:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Chat room")): Object: 'Object Repository/Page_Element/div_Chat room' is clicked on
+
+2022-01-17 13:13:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Chat room' is clicked on
+
+2022-01-17 13:13:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Chat room/div_Chat room_mx_AccessibleButton mx_RoomHe_45c6d9")): Object: 'Object Repository/Page_Element  Chat room/div_Chat room_mx_AccessibleButton mx_RoomHe_45c6d9' is clicked on
+
+2022-01-17 13:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Chat room/div_Chat room_mx_AccessibleButton mx_RoomHe_45c6d9' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat in private room/View notification" time="215.773" classname="Test Cases/Chat in private room/View notification" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Chat in private room/View notification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_Verify with Security Key'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View notification.run(View notification:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642394827502.run(TempTestSuite1642394827502.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_Verify with Security Key' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-01-17 13:13:58 - [TEST_CASE][FAILED] - Test Cases/Chat in private room/View notification: Test Cases/Chat in private room/View notification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_Verify with Security Key'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View notification.run(View notification:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642394827502.run(TempTestSuite1642394827502.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_Verify with Security Key' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-01-17 13:13:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 13:13:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 13:14:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 13:14:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 13:14:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 13:14:01 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:14:02 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:14:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:14:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:15:33 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:15:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:16:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:16:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 13:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 13:16:34 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Unable to click on object 'Object Repository/Page_Element/div_Verify with Security Key' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_Verify with Security Key'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View notification.run(View notification:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642394827502.run(TempTestSuite1642394827502.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_Verify with Security Key' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1642391483257.run(Script1642391483257.groovy:32)
+	... 13 more
+)
+
+2022-01-17 13:17:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-17 13:17:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Element/div_Verify with Security Key' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_Verify with Security Key'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View notification.run(View notification:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642394827502.run(TempTestSuite1642394827502.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_Verify with Security Key' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1642391483257.run(Script1642391483257.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\User\\Katalon Studio\\Bonus SE\\Test-Automation-SE-Bonus\\Reports\\20220117_114707\\Iteration01\\20220117_114707\\1642400254255.png]]]]></system-out>
+         <system-err><![CDATA[2022-01-17 13:13:58 - [TEST_CASE][FAILED] - Test Cases/Chat in private room/View notification: Test Cases/Chat in private room/View notification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_Verify with Security Key'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View notification.run(View notification:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642394827502.run(TempTestSuite1642394827502.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_Verify with Security Key' located by '//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat in private room/View room info" time="328.942" classname="Test Cases/Chat in private room/View room info" status="PASSED">
+         <system-out><![CDATA[2022-01-17 13:17:34 - [TEST_CASE][PASSED] - Test Cases/Chat in private room/View room info: Test Cases/Chat in private room/View room info
+
+2022-01-17 13:17:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 13:17:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 13:17:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 13:17:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 13:17:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 13:17:36 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:17:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:17:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:17:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:18:43 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:18:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:19:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:19:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Element/input_Username_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:19:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:19:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify your identity to access encrypte_310102")): Object: 'Object Repository/Page_Element/div_Verify your identity to access encrypte_310102' is clicked on
+
+2022-01-17 13:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify your identity to access encrypte_310102' is clicked on
+
+2022-01-17 13:19:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 13:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 13:20:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_securityKey"), "AM89fC/Z2L+0kQrgUJMoihakSLfqExGqqEDegROy7UCQVs01BySrESr2vAK0g5sjPD354BYtGaX7vGUm05HO7A=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_securityKey'
+
+2022-01-17 13:20:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_securityKey'
+
+2022-01-17 13:20:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-17 13:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-17 13:21:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-17 13:21:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-17 13:21:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Chat room")): Object: 'Object Repository/Page_Element/div_Chat room' is clicked on
+
+2022-01-17 13:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Chat room' is clicked on
+
+2022-01-17 13:22:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Chat room/div_Chat room_mx_AccessibleButton mx_RightP_44bbd4")): Object: 'Object Repository/Page_Element  Chat room/div_Chat room_mx_AccessibleButton mx_RightP_44bbd4' is clicked on
+
+2022-01-17 13:22:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Chat room/div_Chat room_mx_AccessibleButton mx_RightP_44bbd4' is clicked on
+
+2022-01-17 13:22:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Chat room/div_ok_mx_AccessibleButton mx_BaseCard_close")): Object: 'Object Repository/Page_Element  Chat room/div_ok_mx_AccessibleButton mx_BaseCard_close' is clicked on
+
+2022-01-17 13:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Chat room/div_ok_mx_AccessibleButton mx_BaseCard_close' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat in private room/Voice call in an empty room" time="257.533" classname="Test Cases/Chat in private room/Voice call in an empty room" status="PASSED">
+         <system-out><![CDATA[2022-01-17 13:23:03 - [TEST_CASE][PASSED] - Test Cases/Chat in private room/Voice call in an empty room: Test Cases/Chat in private room/Voice call in an empty room
+
+2022-01-17 13:23:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 13:23:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 13:23:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 13:23:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 13:23:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 13:23:05 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:23:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:23:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:23:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:24:11 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:24:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:24:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:24:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Element/input_Username_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:25:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:25:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 13:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 13:25:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_securityKey"), "AM89fC/Z2L+0kQrgUJMoihakSLfqExGqqEDegROy7UCQVs01BySrESr2vAK0g5sjPD354BYtGaX7vGUm05HO7A=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_securityKey'
+
+2022-01-17 13:25:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_securityKey'
+
+2022-01-17 13:25:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-17 13:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-17 13:26:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-17 13:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-17 13:26:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Chat room")): Object: 'Object Repository/Page_Element/div_Chat room' is clicked on
+
+2022-01-17 13:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Chat room' is clicked on
+
+2022-01-17 13:26:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Chat room/div_Chat room_mx_AccessibleButton mx_RoomHe_3a54bc")): Object: 'Object Repository/Page_Element  Chat room/div_Chat room_mx_AccessibleButton mx_RoomHe_3a54bc' is clicked on
+
+2022-01-17 13:27:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Chat room/div_Chat room_mx_AccessibleButton mx_RoomHe_3a54bc' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign in manually/Sign in without inputting username and password" time="96.194" classname="Test Cases/Sign in manually/Sign in without inputting username and password" status="PASSED">
+         <system-out><![CDATA[2022-01-17 13:27:21 - [TEST_CASE][PASSED] - Test Cases/Sign in manually/Sign in without inputting username and password: Test Cases/Sign in manually/Sign in without inputting username and password
+
+2022-01-17 13:27:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 13:27:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 13:27:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 13:27:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 13:27:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 13:27:23 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:27:26 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:27:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-17 13:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-17 13:27:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 13:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 13:28:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign inHomeservermatrix.orgEditJoin mil_eab958")): Object: 'Object Repository/Page_Element/div_Sign inHomeservermatrix.orgEditJoin mil_eab958' is clicked on
+
+2022-01-17 13:28:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign inHomeservermatrix.orgEditJoin mil_eab958' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create a new space/Create a private space with an empty name" time="362.461" classname="Test Cases/Create a new space/Create a private space with an empty name" status="PASSED">
+         <system-out><![CDATA[2022-01-17 13:28:57 - [TEST_CASE][PASSED] - Test Cases/Create a new space/Create a private space with an empty name: Test Cases/Create a new space/Create a private space with an empty name
+
+2022-01-17 13:28:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 13:28:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 13:28:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 13:28:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 13:28:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 13:28:59 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:29:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:29:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:29:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:29:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:30:03 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:30:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:30:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:30:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 13:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 13:31:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Reset all")): Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 13:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 13:31:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Proceed with reset")): Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 13:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 13:32:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:32:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:33:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon")): Object: 'Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 13:33:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 13:33:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/h3_Private")): Object: 'Object Repository/Page_Element/h3_Private' is clicked on
+
+2022-01-17 13:33:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/h3_Private' is clicked on
+
+2022-01-17 13:33:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Create")): Object: 'Object Repository/Page_Element/div_Create' is clicked on
+
+2022-01-17 13:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Create' is clicked on
+
+2022-01-17 13:33:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Your private spaceAdd some details to h_395764")): Object: 'Object Repository/Page_Element/div_Your private spaceAdd some details to h_395764' is clicked on
+
+2022-01-17 13:34:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Your private spaceAdd some details to h_395764' is clicked on
+
+2022-01-17 13:34:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Create a Group Chat_mx_ContextualMenu_b_ec9165")): Object: 'Object Repository/Page_Element/div_Create a Group Chat_mx_ContextualMenu_b_ec9165' is clicked on
+
+2022-01-17 13:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Create a Group Chat_mx_ContextualMenu_b_ec9165' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create a new space/Create a public new space with an empty name" time="396.462" classname="Test Cases/Create a new space/Create a public new space with an empty name" status="PASSED">
+         <system-out><![CDATA[2022-01-17 13:34:59 - [TEST_CASE][PASSED] - Test Cases/Create a new space/Create a public new space with an empty name: Test Cases/Create a new space/Create a public new space with an empty name
+
+2022-01-17 13:35:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 13:35:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 13:35:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 13:35:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 13:35:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 13:35:02 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:35:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:35:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:35:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:36:34 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:36:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:37:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:37:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 13:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 13:37:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Reset all")): Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 13:38:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 13:38:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Proceed with reset")): Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 13:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 13:38:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:39:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:39:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon")): Object: 'Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 13:40:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 13:40:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_PublicOpen space for anyone, best for c_08629a")): Object: 'Object Repository/Page_Element/div_PublicOpen space for anyone, best for c_08629a' is clicked on
+
+2022-01-17 13:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_PublicOpen space for anyone, best for c_08629a' is clicked on
+
+2022-01-17 13:40:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Create")): Object: 'Object Repository/Page_Element/div_Create' is clicked on
+
+2022-01-17 13:41:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Create' is clicked on
+
+2022-01-17 13:41:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Create a Group Chat_mx_ContextualMenu_b_ec9165")): Object: 'Object Repository/Page_Element/div_Create a Group Chat_mx_ContextualMenu_b_ec9165' is clicked on
+
+2022-01-17 13:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Create a Group Chat_mx_ContextualMenu_b_ec9165' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create a new space/Create a public space with all correct information" time="496.594" classname="Test Cases/Create a new space/Create a public space with all correct information" status="PASSED">
+         <system-out><![CDATA[2022-01-17 13:41:36 - [TEST_CASE][PASSED] - Test Cases/Create a new space/Create a public space with all correct information: Test Cases/Create a new space/Create a public space with all correct information
+
+2022-01-17 13:41:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 13:41:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 13:41:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 13:41:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 13:41:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 13:41:38 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:41:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:41:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:42:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:43:13 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:43:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:43:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:43:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 13:44:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 13:44:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Reset all")): Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 13:44:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 13:44:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Proceed with reset")): Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 13:44:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 13:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:45:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:45:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon")): Object: 'Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 13:45:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 13:45:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_PublicOpen space for anyone, best for c_08629a")): Object: 'Object Repository/Page_Element/div_PublicOpen space for anyone, best for c_08629a' is clicked on
+
+2022-01-17 13:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_PublicOpen space for anyone, best for c_08629a' is clicked on
+
+2022-01-17 13:46:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Upload_spaceName"), "Quang Huy space"): Text 'Quang Huy space' is set on object 'Object Repository/Page_Element/input_Upload_spaceName'
+
+2022-01-17 13:47:21 - [MESSAGE][PASSED] - Text 'Quang Huy space' is set on object 'Object Repository/Page_Element/input_Upload_spaceName'
+
+2022-01-17 13:47:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/textarea_Quang Huy space"), "Quang Huy space"): Text 'Quang Huy space' is set on object 'Object Repository/Page_Element/textarea_Quang Huy space'
+
+2022-01-17 13:48:22 - [MESSAGE][PASSED] - Text 'Quang Huy space' is set on object 'Object Repository/Page_Element/textarea_Quang Huy space'
+
+2022-01-17 13:48:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Create")): Object: 'Object Repository/Page_Element/div_Create' is clicked on
+
+2022-01-17 13:48:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Create' is clicked on
+
+2022-01-17 13:48:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Quang Huy space/div_Enable_mx_SpaceButton_icon")): Object: 'Object Repository/Page_Element  Quang Huy space/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 13:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Quang Huy space/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 13:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_Q")): Object: 'Object Repository/Page_Element/span_Q' is clicked on
+
+2022-01-17 13:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_Q' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create a new space/Create a public space with an empty address" time="520.746" classname="Test Cases/Create a new space/Create a public space with an empty address" status="PASSED">
+         <system-out><![CDATA[2022-01-17 13:49:52 - [TEST_CASE][PASSED] - Test Cases/Create a new space/Create a public space with an empty address: Test Cases/Create a new space/Create a public space with an empty address
+
+2022-01-17 13:49:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 13:49:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 13:49:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 13:49:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 13:49:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 13:49:55 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:49:56 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:49:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:50:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:50:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:51:29 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 13:51:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:51:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 13:51:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 13:52:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 13:52:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Reset all")): Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 13:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 13:53:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Proceed with reset")): Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 13:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 13:53:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:54:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:54:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 13:54:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon")): Object: 'Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 13:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 13:55:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/h3_Public")): Object: 'Object Repository/Page_Element/h3_Public' is clicked on
+
+2022-01-17 13:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/h3_Public' is clicked on
+
+2022-01-17 13:55:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Upload_spaceName"), "quanghuy123"): Text 'quanghuy123' is set on object 'Object Repository/Page_Element/input_Upload_spaceName'
+
+2022-01-17 13:56:33 - [MESSAGE][PASSED] - Text 'quanghuy123' is set on object 'Object Repository/Page_Element/input_Upload_spaceName'
+
+2022-01-17 13:56:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Your public spaceAdd some details to he_7d9a67")): Object: 'Object Repository/Page_Element/div_Your public spaceAdd some details to he_7d9a67' is clicked on
+
+2022-01-17 13:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Your public spaceAdd some details to he_7d9a67' is clicked on
+
+2022-01-17 13:57:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input__mx_Field_5"), ""): Text '' is set on object 'Object Repository/Page_Element/input__mx_Field_5'
+
+2022-01-17 13:58:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Element/input__mx_Field_5'
+
+2022-01-17 13:58:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Create")): Object: 'Object Repository/Page_Element/div_Create' is clicked on
+
+2022-01-17 13:58:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Create' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create a new space/Create a public space with an existed address" time="430.838" classname="Test Cases/Create a new space/Create a public space with an existed address" status="PASSED">
+         <system-out><![CDATA[2022-01-17 13:58:33 - [TEST_CASE][PASSED] - Test Cases/Create a new space/Create a public space with an existed address: Test Cases/Create a new space/Create a public space with an existed address
+
+2022-01-17 13:58:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 13:58:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 13:58:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 13:58:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-17 13:58:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 13:58:36 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:58:37 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 13:58:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:59:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 13:59:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "quanghuyne"): Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 14:00:08 - [MESSAGE][PASSED] - Text 'quanghuyne' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-17 14:00:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "hk4lGgMz64DUYAH1jDReqA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 14:00:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-17 14:00:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 14:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 14:01:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Reset all")): Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 14:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Reset all' is clicked on
+
+2022-01-17 14:01:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Proceed with reset")): Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 14:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Proceed with reset' is clicked on
+
+2022-01-17 14:01:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 14:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 14:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Cancel")): Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 14:02:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 14:02:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon")): Object: 'Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 14:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Enable_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 14:03:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_PublicOpen space for anyone, best for c_08629a")): Object: 'Object Repository/Page_Element/div_PublicOpen space for anyone, best for c_08629a' is clicked on
+
+2022-01-17 14:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_PublicOpen space for anyone, best for c_08629a' is clicked on
+
+2022-01-17 14:03:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Upload_spaceName"), "Quang Huy space"): Text 'Quang Huy space' is set on object 'Object Repository/Page_Element/input_Upload_spaceName'
+
+2022-01-17 14:04:44 - [MESSAGE][PASSED] - Text 'Quang Huy space' is set on object 'Object Repository/Page_Element/input_Upload_spaceName'
+
+2022-01-17 14:04:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Create")): Object: 'Object Repository/Page_Element/div_Create' is clicked on
+
+2022-01-17 14:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Create' is clicked on
+
+2022-01-17 14:05:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Create a Group Chat_mx_ContextualMenu_b_ec9165")): Object: 'Object Repository/Page_Element/div_Create a Group Chat_mx_ContextualMenu_b_ec9165' is clicked on
+
+2022-01-17 14:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Create a Group Chat_mx_ContextualMenu_b_ec9165' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-17 11:47:19 - [TEST_SUITE][FAILED] - Iteration01: Test Cases/Sign in manually/Sign in with wrong username FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sign in with wrong username.run(Sign in with wrong username:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642394827502.run(TempTestSuite1642394827502.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_Password' located by '//section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-01-17 11:47:19 - [TEST_SUITE][FAILED] - Iteration01: Test Cases/Sign in manually/Sign in with wrong username FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Element/div_Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sign in with wrong username.run(Sign in with wrong username:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642394827502.run(TempTestSuite1642394827502.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Element/div_Password' located by '//section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

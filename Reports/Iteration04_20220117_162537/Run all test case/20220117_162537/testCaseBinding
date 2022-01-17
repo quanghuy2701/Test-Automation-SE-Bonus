@@ -1,0 +1,50 @@
+{"testCaseName":"Test Cases/Sign up/Sign up with an email that is registerd in sign in with email","testCaseId":"Test Cases/Sign up/Sign up with an email that is registerd in sign in with email"}
+{"testCaseName":"Test Cases/Sign up/Sign up with an existed username","testCaseId":"Test Cases/Sign up/Sign up with an existed username"}
+{"testCaseName":"Test Cases/Sign up/Sign up with correct information","testCaseId":"Test Cases/Sign up/Sign up with correct information"}
+{"testCaseName":"Test Cases/Sign up/Sign up with incorrect confirm password","testCaseId":"Test Cases/Sign up/Sign up with incorrect confirm password"}
+{"testCaseName":"Test Cases/Sign up/Sign up with username containing special character","testCaseId":"Test Cases/Sign up/Sign up with username containing special character"}
+{"testCaseName":"Test Cases/Sign up/Sign up without input email","testCaseId":"Test Cases/Sign up/Sign up without input email"}
+{"testCaseName":"Test Cases/Sign in with multiple platforms/Sign in with facebook","testCaseId":"Test Cases/Sign in with multiple platforms/Sign in with facebook"}
+{"testCaseName":"Test Cases/Sign in with multiple platforms/Sign in with github","testCaseId":"Test Cases/Sign in with multiple platforms/Sign in with github"}
+{"testCaseName":"Test Cases/Sign in with multiple platforms/Sign in with gitlab","testCaseId":"Test Cases/Sign in with multiple platforms/Sign in with gitlab"}
+{"testCaseName":"Test Cases/Sign in manually/Setting vietnamese phone number for the account","testCaseId":"Test Cases/Sign in manually/Setting vietnamese phone number for the account"}
+{"testCaseName":"Test Cases/Sign in manually/Sign in with email address","testCaseId":"Test Cases/Sign in manually/Sign in with email address"}
+{"testCaseName":"Test Cases/Sign in manually/Sign in with username","testCaseId":"Test Cases/Sign in manually/Sign in with username"}
+{"testCaseName":"Test Cases/Sign in manually/Sign in with wrong password","testCaseId":"Test Cases/Sign in manually/Sign in with wrong password"}
+{"testCaseName":"Test Cases/Sign in manually/Sign in with wrong username","testCaseId":"Test Cases/Sign in manually/Sign in with wrong username"}
+{"testCaseName":"Test Cases/Sign in manually/Sign in without inputting username and password","testCaseId":"Test Cases/Sign in manually/Sign in without inputting username and password"}
+{"testCaseName":"Test Cases/Chat in private room/Search in chatbox","testCaseId":"Test Cases/Chat in private room/Search in chatbox"}
+{"testCaseName":"Test Cases/Chat in private room/Send a message with emojis","testCaseId":"Test Cases/Chat in private room/Send a message with emojis"}
+{"testCaseName":"Test Cases/Chat in private room/Change name of room","testCaseId":"Test Cases/Chat in private room/Change name of room"}
+{"testCaseName":"Test Cases/Chat in private room/Send message Hi","testCaseId":"Test Cases/Chat in private room/Send message Hi"}
+{"testCaseName":"Test Cases/Chat in private room/Send voice message","testCaseId":"Test Cases/Chat in private room/Send voice message"}
+{"testCaseName":"Test Cases/Chat in private room/Video call in an empty room","testCaseId":"Test Cases/Chat in private room/Video call in an empty room"}
+{"testCaseName":"Test Cases/Chat in private room/View notification","testCaseId":"Test Cases/Chat in private room/View notification"}
+{"testCaseName":"Test Cases/Chat in private room/View room info","testCaseId":"Test Cases/Chat in private room/View room info"}
+{"testCaseName":"Test Cases/Chat in private room/Voice call in an empty room","testCaseId":"Test Cases/Chat in private room/Voice call in an empty room"}
+{"testCaseName":"Test Cases/Chat in public room/Change the room name","testCaseId":"Test Cases/Chat in public room/Change the room name"}
+{"testCaseName":"Test Cases/Chat in public room/Double click button send","testCaseId":"Test Cases/Chat in public room/Double click button send"}
+{"testCaseName":"Test Cases/Chat in public room/Search in chatbox","testCaseId":"Test Cases/Chat in public room/Search in chatbox"}
+{"testCaseName":"Test Cases/Chat in public room/Send a message","testCaseId":"Test Cases/Chat in public room/Send a message"}
+{"testCaseName":"Test Cases/Chat in public room/Send a message with emoji","testCaseId":"Test Cases/Chat in public room/Send a message with emoji"}
+{"testCaseName":"Test Cases/Chat in private room/Send a message with special characters","testCaseId":"Test Cases/Chat in private room/Send a message with special characters"}
+{"testCaseName":"Test Cases/Chat in public room/Send voice message","testCaseId":"Test Cases/Chat in public room/Send voice message"}
+{"testCaseName":"Test Cases/Chat in public room/View room info","testCaseId":"Test Cases/Chat in public room/View room info"}
+{"testCaseName":"Test Cases/Chat with other account/Send a message","testCaseId":"Test Cases/Chat with other account/Send a message"}
+{"testCaseName":"Test Cases/Chat with other account/Send a message with emoji","testCaseId":"Test Cases/Chat with other account/Send a message with emoji"}
+{"testCaseName":"Test Cases/Chat with other account/Send message with special characters","testCaseId":"Test Cases/Chat with other account/Send message with special characters"}
+{"testCaseName":"Test Cases/Chat with other account/Send voice chat","testCaseId":"Test Cases/Chat with other account/Send voice chat"}
+{"testCaseName":"Test Cases/Chat with other account/Start a new chat","testCaseId":"Test Cases/Chat with other account/Start a new chat"}
+{"testCaseName":"Test Cases/Chat with other account/Video call","testCaseId":"Test Cases/Chat with other account/Video call"}
+{"testCaseName":"Test Cases/Chat with other account/Voice call","testCaseId":"Test Cases/Chat with other account/Voice call"}
+{"testCaseName":"Test Cases/Create a new space/Create a private space with an empty name","testCaseId":"Test Cases/Create a new space/Create a private space with an empty name"}
+{"testCaseName":"Test Cases/Chat in public room/Send a message with special characters","testCaseId":"Test Cases/Chat in public room/Send a message with special characters"}
+{"testCaseName":"Test Cases/Create a new space/Create a public space with all correct information","testCaseId":"Test Cases/Create a new space/Create a public space with all correct information"}
+{"testCaseName":"Test Cases/Create a new space/Create a public space with an empty address","testCaseId":"Test Cases/Create a new space/Create a public space with an empty address"}
+{"testCaseName":"Test Cases/Create a new space/Create a public space with an existed address","testCaseId":"Test Cases/Create a new space/Create a public space with an existed address"}
+{"testCaseName":"Test Cases/Preview message in public room/Copy room link","testCaseId":"Test Cases/Preview message in public room/Copy room link"}
+{"testCaseName":"Test Cases/Preview message in public room/Preview message","testCaseId":"Test Cases/Preview message in public room/Preview message"}
+{"testCaseName":"Test Cases/Preview message in public room/Search room","testCaseId":"Test Cases/Preview message in public room/Search room"}
+{"testCaseName":"Test Cases/Preview message in public room/View file","testCaseId":"Test Cases/Preview message in public room/View file"}
+{"testCaseName":"Test Cases/Preview message in public room/View members","testCaseId":"Test Cases/Preview message in public room/View members"}
+{"testCaseName":"Test Cases/Create a new space/Create a public new space with an empty name","testCaseId":"Test Cases/Create a new space/Create a public new space with an empty name"}
